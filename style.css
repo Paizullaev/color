@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.colorName{
+    width: 180px;
+    height: 160px;
+    background: rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
